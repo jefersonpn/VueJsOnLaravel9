@@ -55,13 +55,15 @@ Step 5: Create Vue 3 App
 In resources/js/app.js create an instance of the vue 3 firstly you import { createApp } from 'vue' and createApp It takes a parameter here we have passed App. Before that, you can create a vue file which is the main file responsible for the vuejs content name is App.vue.
 ```js
 // app.js
-require('./bootstrap');
+import './bootstrap';
 
-import {createApp} from 'vue'
+import { createApp } from 'vue'
 
-import App from './App.vue'
+// Create a folder 'vue' inside 'resource/js' so you keep all yours vuejs file together, then create file 'App.vue' in 'resource/js/vue'
+import App from './vue/App.vue'
 
-createApp(App).mount("#app")
+createApp(App)
+.mount("#app")
 ```
 Step 6: Create Vue 3 Component
 Under the js folder create a file name 'App.vue' and write content for this example let’s write simple "How To Install Vue 3 in Laravel 9 with Vite - TechvBlogs" you can change it according to your requirement.
