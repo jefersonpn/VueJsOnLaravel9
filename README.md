@@ -66,10 +66,10 @@ createApp(App)
 .mount("#app")
 ```
 Step 6: Create Vue 3 Component
-Under the js folder create a file name 'App.vue' and write content for this example let’s write simple "How To Install Vue 3 in Laravel 9 with Vite - TechvBlogs" you can change it according to your requirement.
+Under the js folder create a file name 'App.vue' and write content for this example let’s write simple "How To Install Vue 3 in Laravel 9 with Vite - Jefersonpn" you can change it according to your requirement.
 ```js
 <template>
-    How To Install Vue 3 in Laravel 9 with Vite - TechvBlogs
+    How To Install Vue 3 in Laravel 9 with Vite - Jefersonpn
 </template>
 ```
 Step 7: Connect Vue 3 Component with Laravel blade file
